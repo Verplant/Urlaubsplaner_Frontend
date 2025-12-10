@@ -10,5 +10,6 @@ async function fetchData(url) {
         return await response.json();
     } catch (error) {
         console.error('Fetch error:', error);
+        //Hallo test
     }
 }
